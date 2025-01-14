@@ -34,7 +34,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone
+   git clone git@github.com:eslamalii/Store-Task.git
    cd store-task
    ```
 
