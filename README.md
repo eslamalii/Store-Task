@@ -10,6 +10,10 @@
 - [API Usage Examples](#api-usage-examples)
 - [Project Structure](#project-structure)
 
+## Deployment
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://store-task-production.up.railway.app/api-docs)
+
 ## Features
 
 - User Authentication with JSON Web Tokens (JWT)
