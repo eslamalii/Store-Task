@@ -81,16 +81,6 @@ npm install
    PORT=3000
    ```
 
-5. Set environment variables:
-
-```bash
-# Windows
-npm run sqlite3 --version
-
-# macOS
-sqlite3 --version
-```
-
 ## Running the Application
 
 - Development mode:
@@ -99,7 +89,7 @@ sqlite3 --version
   npm run start:dev
   ```
 
-  Enables hot-reloading for local development.
+Enables hot-reloading for local development.
 
 - Production mode:
   ```bash
@@ -201,3 +191,22 @@ Access Swagger API documentation (if enabled) at:
   - `logger/` - Logging module
   - `app.module.ts` - Main application module
   - `main.ts` - Application entry point
+
+## Docker
+
+- Docker installed on your machine
+- Docker Compose (optional)
+
+### Building and Running with Docker
+
+1. Build the Docker image:
+
+```bash
+docker build -t store-api .
+```
+
+2. Run the Docker container:
+
+```bash
+docker run -p 3000:3000 --env-file .env store-api
+```

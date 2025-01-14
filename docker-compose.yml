@@ -8,7 +8,5 @@ services:
       - '3000:3000'
     volumes:
       - ./db.sqlite:/usr/src/app/db.sqlite
-    environment:
-      - NODE_ENV=production
-      - JWT_SECRET="your_secret_key"
-      - PORT = 3000
+    env_file:
+      - .env
