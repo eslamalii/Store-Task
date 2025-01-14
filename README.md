@@ -28,8 +28,6 @@
 
 - Node.js
 - npm
-- Python (for SQLite3 build dependencies)
-- Xcode Command Line Tools (for macOS)
 
 ## Setup Instructions
 
